@@ -3,8 +3,8 @@ const app = document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML = `
   <nav class="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center">
     <div class="flex items-center gap-2">
-      <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-emerald-500 rounded-lg flex items-center justify-center font-bold text-white">P</div>
-      <span class="text-xl font-bold tracking-tight text-white">Pancake</span>
+      <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-emerald-500 rounded-lg flex items-center justify-center font-bold text-white">C</div>
+      <span class="text-xl font-bold tracking-tight text-white">ChapatiLM</span>
     </div>
     <div class="hidden md:flex gap-8 text-sm font-medium text-slate-400">
       <a href="#" class="hover:text-white transition-colors">Architecture</a>
@@ -23,15 +23,15 @@ app.innerHTML = `
           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
           <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
         </span>
-        Project Pancake v1.0.0 is now live
+        ChapatiLM v1.0.0 is now live
       </div>
       <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-white">
         Next-Gen ML Core <br/>
         <span class="gradient-text">Efficient by Design.</span>
       </h1>
       <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-        Pancake provides the premium frontend interface for ChapatiLM,
-        delivering real-time neural orchestration and high-performance visualizations
+        ChapatiLM provides the premium frontend interface for our neural engine,
+        delivering real-time orchestration and high-performance visualizations
         for your machine learning workflows.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -73,8 +73,8 @@ app.innerHTML = `
     <footer class="py-12 border-t border-white/5 px-6">
       <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div class="flex items-center gap-2">
-          <div class="w-6 h-6 bg-slate-800 rounded flex items-center justify-center text-xs font-bold text-white">P</div>
-          <span class="font-semibold text-slate-300">Project Pancake</span>
+          <div class="w-6 h-6 bg-slate-800 rounded flex items-center justify-center text-xs font-bold text-white">C</div>
+          <span class="font-semibold text-slate-300">ChapatiLM Architecture</span>
         </div>
         <p class="text-slate-500 text-sm">© 2024 ChapatiLM Architecture. All rights reserved.</p>
         <div class="flex gap-6 text-slate-400 text-sm">
